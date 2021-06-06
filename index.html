@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website desing Slide</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <Body>
+       <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Library</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="user">
+                    <p>Mister Booze</p>
+                    <img src="images/user.png" >
+                </div>
+            </div>
+            <div class="sidebar">
+                <img src="images/search.png" class="search-icon">
+                <div class="social-links">
+                    <img src="images/fb.png">
+                    <img src="images/ig.png">
+                    <img src="images/tw.png">
+                </div>
+                <img src="images/info.png" class="info-icon">
+              </div>
+             <div class="msg-container">
+                 <div id="slider">
+                     <div class="msg-col">
+                         <h1>The reason</h1>
+                         <p>Id  walk straight to the bullet bend like a tulide
+                             blue eyed and foolish never mind the bruises
+                             .Into the fire breaking through the wires and 
+                             shoot you with a gun of gold if i was unbreakable
+                         </p>
+                         <a href="">Learn more</a>
+                     </div>
+                     <div class="msg-col">
+                        <h1>The Integration</h1>
+                        <p>Id  walk straight to the bullet bend like a tulide
+                            blue eyed and foolish never mind the bruises
+                            .Into the fire breaking through the wires and 
+                            shoot you with a gun of gold if i was unbreakable
+                        </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div class="msg-col">
+                        <h1>The legends</h1>
+                        <p>Id  walk straight to the bullet bend like a tulide
+                            blue eyed and foolish never mind the bruises
+                            .Into the fire breaking through the wires and 
+                            shoot you with a gun of gold if i was unbreakable
+                        </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div class="msg-col">
+                        <h1>The Knowledge</h1>
+                        <p>Id  walk straight to the bullet bend like a tulide
+                            blue eyed and foolish never mind the bruises
+                            .Into the fire breaking through the wires and 
+                            shoot you with a gun of gold if i was unbreakable
+                        </p>
+                        <a href="">Learn more</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="controller">
+                 <div id="line1"></div>
+                 <div id="line2"></div>
+                 <div id="line3"></div>
+                 <div id="line4"></div>
+                 <div id="active"></div>
+             </div>
+       </div>
+       <script>
+           var slider =document.getElementById('slider');
+           var active =document.getElementById('active');
+           var line1 =document.getElementById('line1');
+           var line2 =document.getElementById('line2');
+           var line3 =document.getElementById('line3');
+           var line4 =document.getElementById('line4');
+
+           line1.onclick=function(){
+               slider.style.transform='translateX(0)';
+               active.style.top ='0px';
+           }
+           line2.onclick=function(){
+               slider.style.transform = 'translateX(-25%)';
+               active.style.top ='80px';
+           }
+           line3.onclick=function(){
+               slider.style.transform = 'translateX(-50%)';
+               active.style.top ='160px';
+           }
+           line4.onclick=function(){
+               slider.style.transform = 'translateX(-75%)';
+               active.style.top ='240px';
+           }
+       </script>
+
+    </Body>
+
+</html>
